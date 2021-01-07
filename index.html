@@ -16,11 +16,12 @@
 </head>
 
 <body>
+    <header id="device-name">
+        <h2 class="title-text">Calculatron >>></h2>
+    </header>
+
     <section class="addition">
-        <header id="device-name">
-            <h2 class="title-text">Calculator >>></h2>
-        </header>
-        <main>
+        <main class="chassis">
             <section class="add-one">
                 <input id="add-one" type="number">
             </section>
@@ -35,6 +36,9 @@
                     <button id="add-button">Add</button>
                 </nav>
             </section>
+            <section class="equals">
+                <div>=</div>
+            </section>
             <section class="result-box">
                 <div id="add-result"></div>
             </section>
@@ -44,7 +48,7 @@
     </section>
 
     <section class="subtraction">
-        <main>
+        <main class="chassis">
             <section class="inbox-one">
                 <input id="sub-one" type="number">
             </section>
@@ -59,6 +63,9 @@
                     <button id="sub-button">Subtract</button>
                 </nav>
             </section>
+            <section class="equals">
+                <div>=</div>
+            </section>
             <section class="result-box">
                 <div id="sub-result"></div>
             </section>
@@ -68,7 +75,7 @@
     </section>
 
     <section class="multiplication">
-        <main>
+        <main class="chassis">
             <section class="inbox-one">
                 <input id="mult-one" type="number">
             </section>
@@ -83,6 +90,9 @@
                     <button id="mult-button">Multiply</button>
                 </nav>
             </section>
+            <section class="equals">
+                <div>=</div>
+            </section>
             <section class="result-box">
                 <div id="mult-result"></div>
             </section>
@@ -92,7 +102,7 @@
     </section>
 
     <section class="division">
-        <main>
+        <main class="chassis">
             <section class="inbox-one">
                 <input id="div-one" type="number">
             </section>
@@ -107,6 +117,9 @@
                     <button id="div-button">Divide</button>
                 </nav>
             </section>
+            <section class="equals">
+                <div>=</div>
+            </section>
             <section class="result-box">
                 <div id="div-result"></div>
             </section>
@@ -114,6 +127,12 @@
         <footer class="bottom" id="bottom-color">
         </footer>
     </section>
+
+    <footer>
+        <div class="graphic">
+            <img src="https://images.emojiterra.com/google/android-nougat/512px/1f916.png" width="100px">
+        </div>
+    </footer>
 
     <script type="module" src="app.js"></script>
 </body>

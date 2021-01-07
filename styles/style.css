@@ -25,9 +25,10 @@ header {
 .title-text {
     font-family: 'Yellowtail', cursive;
     font-size: 3rem;
+    color: rgb(211, 64, 64);
 }
 
-main {
+.chassis {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,15 +43,17 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 300px;
+    width: 180px;
 }
 
 .symbol {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 20px;
     padding: 20px;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .inbox-two {
@@ -58,7 +61,17 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 300px;
+    width: 180px;
+}
+
+.equals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 20px;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .button-box {
@@ -79,7 +92,17 @@ main {
     width: 100px;
 }
 
+footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
-
+.graphic {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 80px;
+}
 
 
