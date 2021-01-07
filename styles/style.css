@@ -20,7 +20,11 @@ header {
     justify-content: left;
     align-items: center;
     width: 640px;
-    font-family: 'Trebuchet MS';
+}
+
+.title-text {
+    font-family: 'Yellowtail', cursive;
+    font-size: 3rem;
 }
 
 main {
@@ -38,6 +42,15 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 300px;
+}
+
+.symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 20px;
 }
 
 .inbox-two {
@@ -45,6 +58,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 300px;
 }
 
 .button-box {
@@ -52,6 +66,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100px;
 }
 
 .result-box {
@@ -61,6 +76,7 @@ main {
     padding: 20px;
     color: white;
     font-size: 1.5rem;
+    width: 100px;
 }
 
 

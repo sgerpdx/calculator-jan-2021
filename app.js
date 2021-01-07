@@ -1,5 +1,6 @@
 
-console.log('hello world');
+
+
 
 // calculator #1: addition --
 
@@ -39,3 +40,40 @@ subButton.addEventListener('click', () => {
 });
 
 
+// #3: multiplication --
+
+const multInputOne = document.getElementById('mult-one');
+const multInputTwo = document.getElementById('mult-two');
+const multButton = document.getElementById('mult-button');
+const multResult = document.getElementById('mult-result');
+
+console.log(multInputOne);
+console.log(multInputTwo);
+
+multButton.addEventListener('click', () => {
+    const product = multInputOne.valueAsNumber * multInputTwo.valueAsNumber;
+
+    console.log(product);
+
+    multResult.textContent = product;
+});
+
+
+
+// #4: division --
+
+const divInputOne = document.getElementById('div-one');
+const divInputTwo = document.getElementById('div-two');
+const divButton = document.getElementById('div-button');
+const divResult = document.getElementById('div-result');
+
+console.log(divInputOne);
+console.log(divInputTwo);
+
+divButton.addEventListener('click', () => {
+    const solution = divInputOne.valueAsNumber / divInputTwo.valueAsNumber;
+
+    console.log(solution);
+
+    divResult.textContent = solution;
+});

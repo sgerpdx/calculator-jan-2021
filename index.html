@@ -10,31 +10,31 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <title>Sam's Calculatron 2021</title>
 </head>
 
 <body>
     <section class="addition">
         <header id="device-name">
-            <h2>Calculator >>></h2>
+            <h2 class="title-text">Calculator >>></h2>
         </header>
         <main>
             <section class="add-one">
                 <input id="add-one" type="number">
             </section>
-
-            <section id="math-operator">+</section>
-
+            <section class="symbol">
+                <div id="add-operator">+</div>
+            </section>
             <section class="add-two">
                 <input id="add-two" type="number">
             </section>
-
             <section class="button-box">
                 <nav>
                     <button id="add-button">Add</button>
                 </nav>
             </section>
-
             <section class="result-box">
                 <div id="add-result"></div>
             </section>
@@ -44,26 +44,21 @@
     </section>
 
     <section class="subtraction">
-        <header id="device-name">
-            <h2>C-2</h2>
-        </header>
         <main>
             <section class="inbox-one">
                 <input id="sub-one" type="number">
             </section>
-
-            <section id="math-operator">-</section>
-
+            <section class="symbol">
+                <div id="sub-operator">-</div>
+            </section>
             <section class="inbox-two">
                 <input id="sub-two" type="number">
             </section>
-
             <section class="button-box">
                 <nav>
                     <button id="sub-button">Subtract</button>
                 </nav>
             </section>
-
             <section class="result-box">
                 <div id="sub-result"></div>
             </section>
@@ -73,26 +68,21 @@
     </section>
 
     <section class="multiplication">
-        <header id="device-name">
-            <h2>C-3</h2>
-        </header>
         <main>
             <section class="inbox-one">
                 <input id="mult-one" type="number">
             </section>
-
-            <section id="math-operator">x</section>
-
+            <section class="symbol">
+                <div id="mult-operator">*</div>
+            </section>
             <section class="inbox-two">
                 <input id="mult-two" type="number">
             </section>
-
             <section class="button-box">
                 <nav>
                     <button id="mult-button">Multiply</button>
                 </nav>
             </section>
-
             <section class="result-box">
                 <div id="mult-result"></div>
             </section>
@@ -102,26 +92,21 @@
     </section>
 
     <section class="division">
-        <header id="device-name">
-            <h2>C-4</h2>
-        </header>
         <main>
             <section class="inbox-one">
                 <input id="div-one" type="number">
             </section>
-
-            <section id="math-operator">/</section>
-
+            <section class="symbol">
+                <div id="div-operator">/</div>
+            </section>
             <section class="inbox-two">
                 <input id="div-two" type="number">
             </section>
-
             <section class="button-box">
                 <nav>
                     <button id="div-button">Divide</button>
                 </nav>
             </section>
-
             <section class="result-box">
                 <div id="div-result"></div>
             </section>
