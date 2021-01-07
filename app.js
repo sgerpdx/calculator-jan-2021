@@ -1,30 +1,20 @@
-// import functions and grab DOM elements
 
-// initialize state
+// calculator #1: addition --
 
-// set event listeners to update state and DOM
+const addInputOne = document.getElementById('input-one');
+const addInputTwo = document.getElementById('input-two');
+const addButton = document.getElementById('add-button');
+const addResult = document.getElementById('result');
 
-console.log('Hello World!');
+console.log(addInputOne);
+console.log(addInputTwo);
 
-const welcomeElement = document.getElementById('welcome');
-const mainAreaElement = document.getElementById('main-area');
-const logoElement = document.getElementById('logo');
+addButton.addEventListener('click', () => {
+    const sum = addInputOne.valueAsNumber + addInputTwo.valueAsNumber;
 
+    console.log('sum');
 
-// Plan: Add a button
-// When the user clicks, change the style and text content of the welcomeElement
-
-const myButton = document.getElementById('change-button');
-
-// 'getElementById' is a function, above; 'change-button' is an argument
-// add an event listener to activate button
-
-myButton.addEventListener('click', () => {
-    welcomeElement.textContent = 'YOU HAVE ATTAINED POWER EXTREME';
-    welcomeElement.style.background = 'gold';
-    mainAreaElement.style.backgroundImage = 'url("https://d2j8c2rj2f9b78.cloudfront.net/uploads/poster-images/ONLYINCLT_MINE.jpg")';
-
+    addResult.textContent = sum;
 });
-
 
 
