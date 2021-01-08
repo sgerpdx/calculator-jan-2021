@@ -9,10 +9,14 @@ const addResult = document.getElementById('add-result');
 
 export function addClickHandler() {
 
-    const sum = getSum(addInputOne, addInputTwo);
+    const sum = getSum(addInputOne.valueAsNumber, addInputTwo.valueAsNumber);
 
     addResult.textContent = sum;
 }
+
+// export function testGetSum(addInputOne, addInputTwo) {
+//     return addInputOne + addInputTwo;
+// }
 
 
 // Subtraction:
@@ -23,7 +27,7 @@ const subResult = document.getElementById('sub-result');
 
 export function subClickHandler() {
 
-    const diff = getDiff(subInputOne, subInputTwo);
+    const diff = getDiff(subInputOne.valueAsNumber, subInputTwo.valueAsNumber);
 
     subResult.textContent = diff;
 }
@@ -37,7 +41,7 @@ const multResult = document.getElementById('mult-result');
 
 export function multClickHandler() {
 
-    const product = getProd(multInputOne, multInputTwo);
+    const product = getProd(multInputOne.valueAsNumber, multInputTwo.valueAsNumber);
 
     multResult.textContent = product;
 }
@@ -51,7 +55,7 @@ const divResult = document.getElementById('div-result');
 
 export function divClickHandler() {
 
-    const solution = getSolution(divInputOne, divInputTwo);
+    const solution = getSolution(divInputOne.valueAsNumber, divInputTwo.valueAsNumber);
 
     divResult.textContent = solution;
 }
